@@ -1,0 +1,49 @@
+
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3:not(.history) {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    margin: 9px auto;
+}
+
+#facts table *:not(span) {
+    border: 1px solid black;
+}
+
+.overview span:first-child {
+    font-weight: bold;
+}
+
+td span {
+    color: green;
+}
+
+#discography tbody tr:nth-child(2n - 1) {
+    background-color: #ccc;
+} 
+
+.hot-100 {
+    color: blue;
+}
+
+/*
+1: h
+2: e
+3: j
+4: r
+5: b
+6: c
+7: p
+8: n
+9: k
+*/
